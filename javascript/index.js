@@ -41,7 +41,7 @@ function validForm() {
         {
             label: "Whatsapp",
             value: whatsapp,
-            required: false
+            required: true
         },
         {
             label: "Email",
@@ -79,7 +79,7 @@ function writePessoasData(nome, email, whatsapp) {
     db.collection("pessoas").add({
         nome,
         email,
-        whatsapp
+        whatsapp: whatsapp.replace(/[^\d]/g, '')
     })
     .then(function(docRef) {
         Swal.fire({

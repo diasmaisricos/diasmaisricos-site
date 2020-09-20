@@ -1,0 +1,10 @@
+.hero-body {
+    width: 80%!important;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.hero-body .title {
+    text-align: center!important;
+}

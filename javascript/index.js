@@ -41,7 +41,12 @@ function validForm() {
         {
             label: "Whatsapp",
             value: whatsapp,
-            required: true
+            required: true,
+            valid: function() {
+                if(this.value && this.value.replace(/[^\d]/g,'').length != 11) {
+                    message = `O ${this.label} está inválido`
+                }
+            }
         },
         {
             label: "Email",

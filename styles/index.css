@@ -1,10 +1,43 @@
+:root {
+    --primary: #1ed760;
+    --secondary: #1be7ff;
+    --yellow: #e4ff1a;
+    --golden: #e8aa14;
+    --orange: #ff5714;
+}
+
+body {
+    font-family: "Handlee", cursive !important;
+}
+
+.navbar {
+    background-color: var(--primary);
+}
+
+.navbar-item {
+    color: black;
+}
+
+.hero {
+    background: linear-gradient(
+        90deg, 
+        rgb(41, 151, 100) 0%, 
+        rgb(46, 109, 116) 100%
+    );
+}
+
+.navbar-link {
+    color: black;
+}
+
 .hero-body {
-    width: 80%!important;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-self: center;
 }
 
 .hero-body .title {
-    text-align: center!important;
+    text-align: center;
+    color: #ffffff;
 }

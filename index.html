@@ -20,6 +20,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
     <script src="./javascript/firebase.js"></script>
     <script src="./javascript/index.js"></script>
+    <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.5.1" type="text/css" media="all">
     <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <title>Dias Mais Rico - Curso sobre Investimentos em Renda Fixa e Renda Variável</title>
 </head>
@@ -49,7 +50,7 @@
                     </a>
                     <div class="navbar-dropdown">
                         <a class="navbar-item">
-                            Renda passiva na bolsa
+                            Renda passiva na Bolsa
                         </a>
                     </div>
                 </div>
@@ -73,50 +74,66 @@
     <!--END NAVBAR-->
 
     <!--BEGIN HERO-->
-    <section class="hero is-fullheight">
+    <section class="hero is-fullheight-with-navbar">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title">
-                    Digite seus dados para receber ofertas exclusivas!
-                </h1>
-                <div id="form">
-                    <div class="field">
-                        <div class="control has-icons-left has-icons-right">
-                            <input class="input" id="nome" type="text" placeholder="Nome">
-                            <span class="icon is-small is-left">
-                                <i class="icofont-id-card"></i>
-                            </span>
+                <div class="curse-name">
+                    <div class="curso">Curso</div>
+                    <div class="renda-passiva">Renda Passiva</div>
+                    <div class="na-bolsa">na Bolsa</div>
+                </div>
+                <br>
+                <h2 class="title">
+                    <b>16 passos</b> para você atingir sua <b>Liberdade Financeira</b> na 
+                    Bolsa de valores. 
+                    <br>
+                    <b>Viva de Renda passiva</b>, mesmo que você não 
+                    entenda nada sobre investimentos.
+                </h2>
+                <br>
+                <h3 class="subtitle">
+                    Inscreva-se na lista e fique por dentro das novidades.
+                </h3>
+                <div class="columns" style="justify-content: center;">
+                    <div id="form" class="column is-7">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input" id="nome" type="text" placeholder="Nome">
+                                <span class="icon is-small is-left">
+                                    <i class="icofont-id-card"></i>
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="field">
-                        <div class="control has-icons-left has-icons-right">
-                            <input class="input" id="email" type="email" placeholder="Seu melhor e-mail">
-                            <span class="icon is-small is-left">
-                                <i class="icofont-email"></i>
-                            </span>
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input" id="email" type="email" placeholder="Seu melhor e-mail">
+                                <span class="icon is-small is-left">
+                                    <i class="icofont-email"></i>
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="field">
-                        <div class="control has-icons-left has-icons-right">
-                            <input class="input phone_with_ddd" id="whatsapp" type="text" placeholder="Seu whatsapp">
-                            <span class="icon is-small is-left">
-                                <i class="icofont-brand-whatsapp"></i>
-                            </span>
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input phone_with_ddd" id="whatsapp" type="text" placeholder="Seu whatsapp">
+                                <span class="icon is-small is-left">
+                                    <i class="icofont-brand-whatsapp"></i>
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="field">
-                        <div class="control">
-                            <button id="send" class="button is-warning is-fullwidth">
-                                Enviar
-                            </button>
+                        <div class="field">
+                            <div class="control">
+                                <button id="send" class="button is-warning is-fullwidth">
+                                    Enviar
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <span style="color: #ffffff; text-align: center;">© 2020 Dias Mais Rico | Todos Direitos Reservados.</span>
     </section>
     <!--END HERO-->
-
 </body>
 
 </html>

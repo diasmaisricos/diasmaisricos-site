@@ -1,13 +1,13 @@
 :root {
     --primary: #1ed760;
     --secondary: #1be7ff;
-    --yellow: #e4ff1a;
+    --yellow: #ffdd57;
     --golden: #e8aa14;
     --orange: #ff5714;
 }
 
 body {
-    font-family: "Handlee", cursive !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -40,4 +40,38 @@ body {
 .hero-body .title {
     text-align: center;
     color: #ffffff;
+    font-weight: normal;
+}
+
+.hero-body .subtitle {
+    text-align: center;
+    color: var(--yellow);
+}
+
+.curse-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: x-large;
+    margin-top: 6px;
+    color: #ffffff;
+}
+
+.curse-name div {
+    width: 220px;
+}
+
+.curse-name .renda-passiva {
+    background-color: var(--yellow);
+    color: #000;
+    width: 220px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.curse-name .na-bolsa {
+    width: 220px;
+    text-align: right;
 }

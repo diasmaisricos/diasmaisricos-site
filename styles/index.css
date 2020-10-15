@@ -26,6 +26,20 @@ body {
     );
 }
 
+.hero.is-fullheight {
+    min-height: calc(100vh - 24px)!important;
+}
+
+footer {
+    background: linear-gradient(
+        90deg, 
+        rgb(41, 151, 100) 0%, 
+        rgb(46, 109, 116) 100%
+    );
+    text-align: center;
+    color: #ffffff;
+}
+
 .navbar-link {
     color: black;
 }

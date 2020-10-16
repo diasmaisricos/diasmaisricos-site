@@ -4,6 +4,8 @@
     --yellow: #ffdd57;
     --golden: #e8aa14;
     --orange: #ff5714;
+    --black: #07070A;
+    --white: #ffffff;
 }
 
 @font-face {
@@ -16,20 +18,32 @@
     font-display: swap;
 }
 
-.navbar {
+    /*
+    background-image: url('../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+
+.navbar.is-primary {
     background-color: var(--primary);
+    color: var(--black)!important;
 }
 
 .navbar-item {
-    color: black;
+    color: var(--black)!important;
+}
+
+.navbar-link {
+    color: var(--black)!important;
+}
+
+.navbar.is-primary .navbar-end .navbar-link::after, .navbar.is-primary .navbar-start .navbar-link::after {
+    border-color: var(--black);
 }
 
 .hero {
-    background: linear-gradient(
-        90deg, 
-        rgb(41, 151, 100) 0%, 
-        rgb(46, 109, 116) 100%
-    );
+    background: var(--black)
 }
 
 .hero.is-fullheight {
@@ -41,17 +55,9 @@
 }
 
 footer {
-    background: linear-gradient(
-        90deg, 
-        rgb(41, 151, 100) 0%, 
-        rgb(46, 109, 116) 100%
-    );
+    background: var(--black);
     text-align: center;
-    color: #ffffff;
-}
-
-.navbar-link {
-    color: black;
+    color: var(--white);
 }
 
 .hero-body {
@@ -98,4 +104,9 @@ footer {
 .curse-name .na-bolsa {
     width: 220px;
     text-align: right;
+}
+
+.input::placeholder {
+    color: var(--black);
+    opacity: 0.7; 
 }

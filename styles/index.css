@@ -76,6 +76,7 @@ footer {
 .hero-body .subtitle {
     text-align: center;
     color: var(--yellow);
+    font-size: 27px;
 }
 
 .curse-name {

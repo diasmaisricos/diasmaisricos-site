@@ -6,8 +6,14 @@
     --orange: #ff5714;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+@font-face {
+    font-family: 'IcoFont';
+    src: local('icofont'),
+        url('./icofont/icofont.woff2') format('woff2'),
+        url('./icofont/icofont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 .navbar {
@@ -28,6 +34,10 @@ body {
 
 .hero.is-fullheight {
     min-height: calc(100vh - 24px)!important;
+}
+
+.field .label {
+    color: #ffffff;
 }
 
 footer {

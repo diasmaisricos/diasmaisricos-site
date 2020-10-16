@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +7,19 @@
     <meta name="robots" content="index">
     <meta http-equiv=”content-language” content=”pt-br”>
     <meta http-equiv=”content-type” content=”text/html; charset=UTF-8″>
-    <link rel="stylesheet" href="./styles/bulma.min.css">
-    <link rel="stylesheet" href="./styles/icofont/icofont.min.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/bulma.min.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/icofont/icofont.min.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./styles/index.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-    <script src="./javascript/jquery-3.5.1.min.js"></script>
-    <script src="./javascript/jquery.mask.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
-    <script src="./javascript/firebase.js"></script>
-    <script src="./javascript/index.js"></script>
-    <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.5.1" type="text/css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <script defer src="./javascript/jquery-3.5.1.min.js"></script>
+    <script defer src="./javascript/jquery.mask.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
+    <script defer src="./javascript/firebase.js"></script>
+    <script defer src="./javascript/index.js"></script>
     <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <title>Dias Mais Rico - Curso sobre Investimentos em Renda Fixa e Renda Variável</title>
 </head>
@@ -30,7 +29,7 @@
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="https://diasmaisrico.com">
-                <img src="./assets/images/logo.png">
+                <img src="./assets/images/logo.png" alt="Dias Mais Rico" width="189.53" height="27.98">
             </a>
             <a role="button" class="navbar-burger burger" id="burgerMenu" aria-label="menu" aria-expanded="false"
                 data-target="navbarBasicExample">
@@ -41,32 +40,32 @@
         </div>
         <div id="navigatorMenu" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item">
+                <a class="navbar-item" href="https://diasmaisrico.com">
                     Home
                 </a>
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
+                    <span class="navbar-link">
                       Cursos
-                    </a>
+                    </span>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item">
+                        <span class="navbar-item">
                             Renda passiva na Bolsa
-                        </a>
+                        </span>
                     </div>
                 </div>
             </div>
             <div class="navbar-end">
-                <a class="navbar-item" href="https://www.instagram.com/arthurdiaspe/" target="_blank">
-                   <img src="./assets/icons/instagram.png" alt="Instagram">
+                <a class="navbar-item" href="https://www.instagram.com/arthurdiaspe/" rel="noreferrer" target="_blank">
+                   <img src="./assets/icons/instagram.png" alt="Instagram" width="28" height="28">
                 </a>
-                <a class="navbar-item" href="https://t.me/diasmaisrico" target="_blank">
-                    <img src="./assets/icons/telegram.png" alt="Telegram">
+                <a class="navbar-item" href="https://t.me/diasmaisrico" rel="noreferrer" target="_blank">
+                    <img src="./assets/icons/telegram.png" alt="Telegram" width="28" height="28">
                 </a>
-                <a class="navbar-item" href="https://www.facebook.com/arthurdiaspe" target="_blank">
-                    <img src="./assets/icons/facebook.png" alt="Facebook">
+                <a class="navbar-item" href="https://www.facebook.com/arthurdiaspe" rel="noreferrer" target="_blank">
+                    <img src="./assets/icons/facebook.png" alt="Facebook" width="28" height="28">
                 </a>
-                <a class="navbar-item" href="https://www.youtube.com/channel/UC8NgqM1slZHaUlZjYGG3B8w" target="_blank">
-                    <img src="./assets/icons/youtube.png" alt="Youtube">
+                <a class="navbar-item" href="https://www.youtube.com/channel/UC8NgqM1slZHaUlZjYGG3B8w" rel="noreferrer" target="_blank">
+                    <img src="./assets/icons/youtube.png" alt="Youtube" width="28" height="28">
                 </a>
             </div>
         </div>
@@ -88,7 +87,8 @@
                 <div class="columns" style="justify-content: center;">
                     <div id="form" class="column is-7">
                         <div class="field">
-                            <div class="control has-icons-left has-icons-right">
+                            <label class="label" for="nome">Nome</label>
+                            <div class="control has-icons-left">
                                 <input class="input" id="nome" type="text" placeholder="Nome">
                                 <span class="icon is-small is-left">
                                     <i class="icofont-id-card"></i>
@@ -96,7 +96,8 @@
                             </div>
                         </div>
                         <div class="field">
-                            <div class="control has-icons-left has-icons-right">
+                            <label class="label" for="email">Email</label>
+                            <div class="control has-icons-left">
                                 <input class="input" id="email" type="email" placeholder="Seu melhor e-mail">
                                 <span class="icon is-small is-left">
                                     <i class="icofont-email"></i>
@@ -104,7 +105,8 @@
                             </div>
                         </div>
                         <div class="field">
-                            <div class="control has-icons-left has-icons-right">
+                            <label class="label" for="whatsapp">Whatsapp</label>
+                            <div class="control has-icons-left">
                                 <input class="input phone_with_ddd" id="whatsapp" type="text" placeholder="DDD + Whatsapp">
                                 <span class="icon is-small is-left">
                                     <i class="icofont-brand-whatsapp"></i>

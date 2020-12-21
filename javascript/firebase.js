@@ -1,12 +1,11 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyBxw_EW3_1Gopnz1rx1s96bSjF6ikc9ylc",
-    authDomain: "dias-mais-rico.firebaseapp.com",
-    databaseURL: "https://dias-mais-rico.firebaseio.com",
-    projectId: "dias-mais-rico",
-    storageBucket: "dias-mais-rico.appspot.com",
-    messagingSenderId: "864255288206",
-    appId: "1:864255288206:web:bffd759def064f135bbadf",
-    measurementId: "G-MYC4MDWZQV"
+    apiKey: "AIzaSyCBqKEPYrLtXkO1lp3ZifzS7aO5n8bonbk",
+    authDomain: "dias-mais-ricos.firebaseapp.com",
+    projectId: "dias-mais-ricos",
+    storageBucket: "dias-mais-ricos.appspot.com",
+    messagingSenderId: "504916465376",
+    appId: "1:504916465376:web:b9a93a917aec6f2d352285",
+    measurementId: "G-PM9718SJCS"
 };
 
 firebase.initializeApp(firebaseConfig);
